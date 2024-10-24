@@ -10,11 +10,15 @@
 
 `localVar`：局部变量，调用时在Stack上分配空间
 
+[Glimmer-CS-EASE-03/407c5d18278560a0c97fe357862253a2.png at main · LB-325/Glimmer-CS-EASE-03](https://github.com/LB-325/Glimmer-CS-EASE-03/blob/main/407c5d18278560a0c97fe357862253a2.png)
+
 ![1729750898387](image/apply/1729750898387.png)
 
 显然，局部变量在其他函数中属于***未定义***存在   **//地址0000002086BFF834**
 
 `ptr`：作为指针指向堆区（由malloc函数分配的内存位置），但其本身存储在Stack上，属于局部变量
+
+[Glimmer-CS-EASE-03/4a3c4d020cdabbf1b852de7e7bbdba7e.png at main · LB-325/Glimmer-CS-EASE-03](https://github.com/LB-325/Glimmer-CS-EASE-03/blob/main/4a3c4d020cdabbf1b852de7e7bbdba7e.png)
 
 ![1729749698250](image/apply/1729749698250.png)
 
