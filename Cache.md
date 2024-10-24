@@ -58,6 +58,8 @@
 
 在学*Cache*前，我已经接触到了函数递归的知识
 
+[Glimmer-CS-EASE-03/4bde8d7ddad40b3c5d99b31ca4419fdd.jpg at main · LB-325/Glimmer-CS-EASE-03](https://github.com/LB-325/Glimmer-CS-EASE-03/blob/main/4bde8d7ddad40b3c5d99b31ca4419fdd.jpg)
+
 ![1729746515485](image/Cache/1729746515485.png)
 
 后面看到*Cache*也是先进后出的Stack方式，突然就想到了学内存管理函数里调用函数时会提前将上一个函数地址以压栈的方式记录，等最后一个函数运行完在以后进先出的方式弹出之前函数地址，就完成了上图中函数调用的返回。查了便验证了我的想法，这种嵌套函数调用有时就是需要将函数地址存于*Cache*中，以先进后出的方式进出栈
